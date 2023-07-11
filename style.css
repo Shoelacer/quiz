@@ -62,8 +62,33 @@ button:hover {
     padding-right: 12px;
     font-size: 200%;
     margin: 0px;
+    position: absolute;
+    top: 2.4%;
 }
 
 #create {
     display: none;
+}
+
+.displayQ {
+    width: 96%;
+    position: relative;
+    background-color: rgb(51, 51, 51);
+    height: 30%;
+    left: 2%;
+    top: 25px;
+    border-radius: 20px;
+    color: white;
+}
+
+.question {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -100%);
+    width: 30%;
+    word-wrap: break-word;
+    height: fit-content;
 }
